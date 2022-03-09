@@ -21,7 +21,7 @@ math:
   enable: true
 ---
 
-Find out how to create and organize your content quickly and intuitively in **uBlogger** theme.
+<!-- Find out how to create and organize your content quickly and intuitively in **uBlogger** theme.
 
 <!--more-->
 
@@ -532,4 +532,4 @@ Another example is:
 
 The rendered output looks like this:
 
-**[link{?]}(#escape-character)** instead of **[link](#escape-character)**.
+**[link{?]}(#escape-character)** instead of **[link](#escape-character)**. -->
