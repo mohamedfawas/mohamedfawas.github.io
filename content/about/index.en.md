@@ -9,20 +9,11 @@ math:
   enable: true
 ---
 
-<!-- {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/upagge/uBlogger?style=flat-square)](https://github.com/upagge/uBlogger/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger)
-[![GitHub forks](https://img.shields.io/github/forks/upagge/uBlogger?style=social)](https://github.com/upagge/uBlogger/fork)
-{{< /style >}} -->
+
 
 > I am Mohamed Fawas. Currently pursuing my final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
 >
 > I am happy to collaborate on **computer vision** and **machine learning** projects
-<!-- > I am Mohamed Fawas. I am from Kerala, India. I have done my schooling till 12th from Malappuram itself. Then I joined [Farook College, Kozhikode](https://farookcollege.ac.in/) for doing my Bachelors in [Statistics](https://farookcollege.ac.in/Department/department-of-statistics) **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [uPagge](https://upagge.ru).
->
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt). -->
 
 ![Moments at IIITM-k](/images/gang.jpg "Moments at IIITM-k")
 
