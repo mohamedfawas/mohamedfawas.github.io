@@ -1,4 +1,4 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/mohamedfawas/mohamedfawas.github.io.git
-	branch = main
+[submodule "themes/uBlogger"]
+	path = themes/uBlogger
+	url = https://github.com/uPagge/uBlogger.git
+	branch = master
