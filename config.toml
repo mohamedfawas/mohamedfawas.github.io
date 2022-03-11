@@ -239,6 +239,211 @@ enableEmoji = true
         #[languages.en.params.social.Mastodon]
         #  id = "@xxxx"
         #  prefix = "https://mastodon.technology/"
+  [languages.de]
+    weight = 2
+    # language code
+    languageCode = "de"
+    # language name
+    languageName = "German"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # Menu config
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "Projects"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Projekte"
+        url = "/projects_german/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.de.menu.main]]
+        identifier = "blog"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        # you can add extra information after the name (HTML format is supported), such as icons
+        post = ""
+        name = "Bloggen"
+        url = "/blog_german/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 2
+      #[[languages.de.menu.main]]
+      #  identifier = "categories"
+      #  pre = ""
+      #  post = ""
+      #  name = "Kategorien"
+      #  url = "/categories_german/"
+      #  title = ""
+      #  weight = 3
+      [[languages.de.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "Über mich"
+        url = "/about_german/"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "tags"
+        pre = ""
+        post = ""
+        name = "Stichworte"
+        url = "/tags_german/"
+        title = ""
+        weight = 4
+      #[[languages.en.menu.main]]
+      #  identifier = "documentation"
+      #  pre = ""
+      #  post = ""
+      #  name = "Docs"
+      #  url = "/categories/documentation/"
+      #  title = ""
+      #  weight = 6
+    [languages.de.params]
+      # site description
+      description = "Über Mohamed Fawas"
+      # site keywords
+      keywords = ["Über", "Mohamed Fawas"]
+      # App icon config
+      [languages.de.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "Mohamed Fawas"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.de.params.search]
+        enable = true
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.de.params.search.algolia]
+          index = "index.de"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # Home page config
+      [languages.de.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.de.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/faz.jpg"
+          # title shown in home page (HTML format is supported)
+          title = "Mohamed Fawas"
+          # subtitle shown in home page (HTML format is supported)
+          subtitle = "24-jähriger Data-Science-Student, der gerne an Computer-Vision-Projekten arbeitet"
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = ""
+        # Home page posts
+        [languages.de.params.home.posts]
+          enable = true
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.de.params.social]
+        GitHub = "mohamedfawas"
+        Linkedin = "mohamed-fawas"
+        Twitter = "MOHAMEDFAWAS182"
+        Instagram = "fawas_182"
+        #Facebook = "xxxx"
+        #Telegram = "xxxx"
+        Medium = "@mohamedfawas"
+        #Gitlab = ""
+        #Youtubelegacy = "xxxx"
+        #Youtubecustom = ""
+        Youtubechannel = "UC4BKnOTGmZP-sM_tVWlyEKg"
+        #Tumblr = ""
+        #Quora = ""
+        #Keybase = ""
+        #Pinterest = ""
+        #Reddit = ""
+        #Codepen = ""
+        #FreeCodeCamp = ""
+        #Bitbucket = ""
+        Stackoverflow = "10518645/mohamed-fawas"
+        #Weibo = ""
+        #Odnoklassniki = ""
+        #VK = ""
+        #Flickr = ""
+        Xing = "MOHAMED_FAWAS"
+        #Snapchat = ""
+        #Soundcloud = ""
+        #Spotify = ""
+        #Bandcamp = ""
+        #Paypal = ""
+        #Fivehundredpx = ""
+        #Mix = ""
+        #Goodreads = ""
+        #Lastfm = ""
+        #Foursquare = ""
+        #Hackernews = ""
+        #Kickstarter = ""
+        #Patreon = ""
+        #Steam = ""
+        #Twitch = ""
+        #Strava = ""
+        #Skype = ""
+        #Whatsapp = ""
+        #Zhihu = ""
+        #Douban = ""
+        #Angellist = ""
+        #Slidershare = ""
+        #Jsfiddle = ""
+        #Deviantart = ""
+        #Behance = ""
+        #Dribbble = ""
+        #Wordpress = ""
+        #Vine = ""
+        #Googlescholar = ""
+        #Researchgate = ""
+        #Thingiverse = ""
+        #Devto = ""
+        #Gitea = ""
+        #XMPP = ""
+        #Matrix = ""
+        #Bilibili = ""
+        Email = "fawastmh@gmail.com"
+        #DockerHub = ""
+        Discord = "#2197"
+        #Leanpub = ""
+        #Udemy = ""
+        RSS = true
+        #[languages.en.params.social.Mastodon]
+        #  id = "@xxxx"
+        #  prefix = "https://mastodon.technology/"
+    
 
 [params]
   # uBlogger theme version
