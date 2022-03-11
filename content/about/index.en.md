@@ -10,8 +10,9 @@ math:
 ---
 
 
-
-> I am Mohamed Fawas. Currently pursuing my final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
+> #### What I am doing now
+> 
+> Currently pursuing my final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
 >
 > I am happy to collaborate on **computer vision** and **machine learning** projects
 
