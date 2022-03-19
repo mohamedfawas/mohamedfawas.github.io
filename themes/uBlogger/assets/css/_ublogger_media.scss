@@ -1,6 +1,6 @@
 @media only screen and (min-width: 1300px) {
   .page-toc {
-    .article-post {
+    article {
       margin-right: auto;
       margin-left: auto;
     }
@@ -45,11 +45,11 @@
     width: 100%;
   }
 
-  .article-post {
-    font-size: 19px;
+  article.single {
+    font-size: 18px;
 
     .post {
-      padding: 45px 60px;
+      padding: 40px 60px 40px;
     }
 
   }
@@ -93,7 +93,7 @@
   }
 
   .page-toc {
-    .article-post {
+    article {
       margin-right: auto;
       margin-left: auto;
     }
@@ -113,11 +113,11 @@
     }
   }
 
-  .article-post {
-    font-size: 19px;
+  article.single {
+    font-size: 18px;
 
     .post {
-      padding: 45px 60px;
+      padding: 40px 60px 40px;
     }
   }
 
@@ -138,11 +138,11 @@
     width: 100%;
   }
 
-  .article-post {
-    font-size: 19px;
+  article.single {
+    font-size: 18px;
 
     .post {
-      padding: 45px 60px;
+      padding: 40px 60px 40px;
     }
   }
 
@@ -157,16 +157,6 @@
     padding: 40px 60px 20px 60px;
   }
 
-  .img-right {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .img-size-30, .img-size-50, .img-size-40 {
-    width: 100%;
-  }
-
 }
 
 @media only screen and (max-width: 680px) {
@@ -179,7 +169,7 @@
     }
   }
 
-  .article-post {
+  article.single {
     font-size: 16px;
 
     .post {
@@ -195,10 +185,6 @@
     }
 
     .content-block-position:first-child {
-      margin-top: 0;
-    }
-
-    .content-break h2 {
       margin-top: 0;
     }
   }
@@ -230,7 +216,7 @@
   }
 
   .theme-classic, .theme-wide, .theme-full, .theme-mega-full, .theme-hero {
-    .article-post {
+    article {
       margin-top: 0;
     }
   }
@@ -248,17 +234,6 @@
 
   .padding-article {
     padding: 40px 10px 0 10px;
-  }
-
-  figure.render-image {
-    display: block;
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-
-  .split-post {
-    margin-right: -10px;
-    margin-left: -10px;
   }
 
   .post-all-meta {
@@ -345,17 +320,11 @@
 
 @media only screen and (max-width: 400px) {
   .home {
-    .article-post {
+    article {
       .featured-image-preview {
         display: none;
       }
     }
-  }
-
-  .rendered {
-    margin-top: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
   }
 
   .post-meta {
@@ -364,7 +333,7 @@
     }
   }
 
-  .block-author {
+  .footer-post-author {
     .author-avatar {
       display: none;
     }
@@ -442,7 +411,7 @@
     }
   }
 
-  .article-post {
+  article {
     .content-block {
       box-shadow: none;
     }

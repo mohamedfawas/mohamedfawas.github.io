@@ -1,24 +1,6 @@
 @import "../_partial/_single/toc";
 
-.content-block {
-  .single > :first-child {
-    margin-top: 0 !important;
-  }
-
-  .single > section:first-child > :first-child,
-  .single > article:first-child > :first-child {
-    margin-top: 0 !important;
-  }
-}
-
 .single {
-
-  li {
-    ul {
-      margin: 0;
-    }
-  }
-
   .single-title {
     margin: 1rem 0 .5rem;
     font-size: 1.6rem;
@@ -46,14 +28,26 @@
 
   h2 {
     font-size: 1.6rem;
+
+    & code {
+      font-size: 1.25rem;
+    }
   }
 
   h3 {
     font-size: 1.375rem;
+
+    & code {
+      font-size: 1.125rem;
+    }
   }
 
   h4 {
     font-size: 1.25rem;
+
+    & code {
+      font-size: 1rem;
+    }
   }
 
   h5 {
@@ -64,40 +58,19 @@
     font-size: 1rem;
   }
 
-  h2, h3, h4, h5, h6 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-weight: bold;
+    margin-bottom: 1.2rem;
+    margin-top: 3.2rem;
 
     [theme=dark] & {
       font-weight: bolder;
     }
-
-    code {
-      background: #f5f2f0;
-      padding: .4rem;
-      border-radius: 3px;
-    }
   }
-
-  h3, h4, h5, h6 {
-    font-weight: bold;
-    margin-bottom: 1rem;
-    margin-top: 3.2rem;
-
-    & + * {
-      margin-top: 0 !important;
-    }
-  }
-
-  h2 {
-    margin-bottom: 1.2rem;
-    font-size: 2rem;
-    margin-top: 7rem;
-  }
-
-  h3 {
-    font-size: 1.6rem;
-  }
-
 
   h2,
   h3,
@@ -127,6 +100,8 @@
   }
 
   b, strong {
+    font-weight: bold;
+
     [theme=dark] & {
       color: #ddd;
     }
@@ -136,23 +111,10 @@
 
   a {
     @include overflow-wrap(break-word);
-    border-bottom: dashed 1px;
 
     [theme=dark] & b, [theme=dark] & strong {
       color: $single-link-color-dark;
     }
-  }
-
-  a:visited {
-    color: #70a0b0;
-
-    [theme=dark] & {
-      color: #70a0b0;
-    }
-  }
-
-  a[class="header-mark"], .post-footer a {
-    border-bottom: none;
   }
 
   [theme=dark] a:hover b, [theme=dark] a:hover strong {
@@ -186,11 +148,6 @@
 
   .table-wrapper {
     overflow-x: auto;
-    border-radius: 6px 6px 0 0;
-
-    & + .table-wrapper {
-      margin-top: 1rem;
-    }
 
     &::-webkit-scrollbar {
       background-color: $table-background-color;
@@ -203,8 +160,10 @@
     > table {
       width: 100%;
       max-width: 100%;
+      margin: .625rem 0;
       border-spacing: 0;
       background: $table-background-color;
+      border-collapse: collapse;
 
       [theme=dark] & {
         background: $table-background-color-dark;
@@ -219,20 +178,12 @@
       }
 
       th, td {
-        padding: .18rem 1rem;
+        padding: .3rem 1rem;
         border: 1px solid darken($table-thead-color, 2%);
 
         [theme=dark] & {
           border-color: darken($table-thead-color-dark, 2%);
         }
-      }
-
-      tr:last-child td:first-child {
-        border-bottom-left-radius: 6px;
-      }
-
-      tr:last-child td:last-child {
-        border-bottom-right-radius: 6px;
       }
     }
   }
@@ -272,6 +223,7 @@
     }
   }
 
+  @import "../_partial/_single/code";
   @import "../_partial/_single/instagram";
   @import "../_partial/_single/admonition";
   @import "../_partial/_single/echarts";
@@ -316,36 +268,18 @@
     vertical-align: text-bottom;
   }
 
-  .essence {
-    margin: auto;
-    background: none;
-    border: none;
-    display: block;
-    text-align: center;
-    font-size: 160%;
-    width: 90%;
-    padding: 40px 20px;
-    box-sizing: border-box;
-    font-weight: 400;
-    line-height: 2rem;
-    text-transform: uppercase;
-
-    [theme="dark"] & {
-      background: none;
-      border: none;
-    }
-
-    .essence {
+  blockquote {
+    blockquote {
       padding: 0;
       width: 100%;
       line-height: 3.5rem;
 
-      .essence {
+      blockquote {
         width: 100%;
         padding: 0;
         line-height: 6rem;
 
-        .essence {
+        blockquote {
           width: 100%;
           padding: 0;
           line-height: 8rem;
@@ -353,11 +287,6 @@
       }
     }
   }
-
-  figure {
-    margin: 3rem 0 3rem 0;
-  }
-
 }
 
 .lg-toolbar .lg-icon::after {

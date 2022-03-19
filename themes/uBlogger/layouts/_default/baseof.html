@@ -49,10 +49,10 @@
                 </div>
                 {{ end -}}
             </main>
-            {{- partialCached "footer.html" . -}}
+            {{- partial "footer.html" . -}}
         </div>
 
-        <aside id="fixed-buttons">
+        <div id="fixed-buttons">
             {{- /* top button */ -}}
             <a href="#" id="back-to-top" class="fixed-button" title="{{ T `backToTop` }}">
                 <i class="svg-icon icon-arrow-up"></i>
@@ -62,7 +62,7 @@
             <a href="#" id="view-comments" class="fixed-button" title="{{ T `viewComments` }}">
                 <i class="svg-icon icon-comments-fixed"></i>
             </a>
-        </aside>
+        </div>
 
         {{- /* Load JavaScript scripts and CSS */ -}}
         {{- partial "assets.html" . -}}

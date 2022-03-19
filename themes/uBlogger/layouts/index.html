@@ -1,38 +1,12 @@
-{{- define "title" }}
-{{ with .Site.Params.HomeTitle }}{{ default . }} | {{ end }}{{ .Site.Title -}}
-{{- end -}}
-
 {{- define "content" -}}
     {{- $params := .Scratch.Get "params" -}}
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
 
-    {{- /* Paginate */ -}}
-    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
-    {{- if .Site.Params.page.hiddenFromHomePage -}}
-    {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
-    {{- else -}}
-    {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
-    {{- end -}}
-
-    {{ $pinnedPostRelPermalinks := split .Site.Params.pinnedPost "," }}
-    {{ $pinnedPosts := where $pages "RelPermalink" "in" $pinnedPostRelPermalinks }}
-    {{ $pages := where $pages "RelPermalink" "not in" $pinnedPostRelPermalinks }}
-
-    {{- with $posts.paginate | default .Site.Params.paginate -}}
-    {{- $pages = $.Paginate $pages . -}}
-    {{- else -}}
-    {{- $pages = .Paginate $pages -}}
-    {{- end -}}
-
-    <article class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
+    <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
         {{- /* Profile */ -}}
         {{- if ne $profile.enable false -}}
-        {{ if (and $profile.onlyToFirstPage (ne $pages.PageNumber 1)) }}
-        {{/* Do nothing if the pinOnlyToFirstPage flag is set and we're not on page 1. */}}
-        {{else}}
-        {{- partialCached "home/profile.html" . -}}
-        {{- end -}}
+            {{- partial "home/profile.html" . -}}
         {{- end -}}
 
         {{- /* Content */ -}}
@@ -46,6 +20,23 @@
 
         {{- /* Posts */ -}}
         {{- if ne $posts.enable false | and .Site.RegularPages -}}
+            {{- /* Paginate */ -}}
+            {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+            {{- if .Site.Params.page.hiddenFromHomePage -}}
+                {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
+            {{- else -}}
+                {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
+            {{- end -}}
+
+            {{ $pinnedPostRelPermalinks := split .Site.Params.pinnedPost "," }}
+            {{ $pinnedPosts := where $pages "RelPermalink" "in" $pinnedPostRelPermalinks }}
+            {{ $pages := where $pages "RelPermalink" "not in" $pinnedPostRelPermalinks }}
+
+            {{- with $posts.paginate | default .Site.Params.paginate -}}
+                {{- $pages = $.Paginate $pages . -}}
+            {{- else -}}
+                {{- $pages = .Paginate $pages -}}
+            {{- end -}}
 
             {{ if .Site.Params.pinnedPost }}
             {{ if (and .Site.Params.pinOnlyToFirstPage (ne $pages.PageNumber 1)) }}
@@ -56,26 +47,17 @@
             <div class="post-pinned">
             {{- .Render "summary" -}}
             </div>
+
             {{end}}
             {{end}}
             {{end}}
-            {{ if .Site.Params.PostSort }}
-            <hr/>
-                <div class="post-sort">
-                    <ol>
-                        {{- range .Site.Params.PostSort -}}
-                                {{- $url := .url | relLangURL -}}
-                                <li><a href="{{ $url }}">{{ .name }}</a></li>
-                        {{ end }}
-                    </ol>
-                </div>
-            {{ end }}
+
             {{- range $pages.Pages -}}
                 {{- .Render "summary" -}}
             {{- end -}}
             {{- partial "paginator.html" . -}}
         {{- end -}}
-    </article>
+    </div>
 
     {{- $comment := .Site.Params.Comment -}}
     {{- $remark42 := $comment.remark42 | default dict -}}

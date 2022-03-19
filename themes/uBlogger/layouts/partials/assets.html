@@ -57,12 +57,6 @@
     {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
 {{- end -}}
 
-{{- /* Prism.js */ -}}
-{{- if $params.share.enable -}}
-{{- $source := "lib/prismjs/prism.js" -}}
-{{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-{{- end -}}
-
 {{- /* KaTeX */ -}}
 {{- $math := $params.math -}}
 {{- if eq $math true -}}
@@ -185,7 +179,6 @@
     {{- partial "plugin/script.html" . -}}
 {{- end -}}
 
-{{- if .Site.Params.Advertising.Enable -}}
 {{- with .Site.Params.Advertising.adblockHtml -}}
 <script>
     const ads = "no-adb";
@@ -216,6 +209,5 @@
         }
 }</script>
 {{- end -}}
-{{- end -}}
 
-{{- partialCached "plugin/analytics.html" . -}}
+{{- partial "plugin/analytics.html" . -}}

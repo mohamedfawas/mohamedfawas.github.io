@@ -1,4 +1,3 @@
-{{ $width := cond $.IsNamedParams ($.Get "width") "" }}
-<div class="block-media block-media_right" {{ with $width }}style="width:{{ . }}"{{ end }}>
+<div class="block-media block-media_right">
     {{ .Inner | $.Page.RenderString }}
 </div>

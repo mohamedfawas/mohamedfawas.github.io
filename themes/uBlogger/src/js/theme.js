@@ -13,7 +13,7 @@ class Util {
     }
 
     isTocStatic() {
-        return window.matchMedia('only screen and (max-width: 1200px)').matches;
+        return window.matchMedia('only screen and (max-width: 960px)').matches;
     }
 
     animateCSS(element, animation, reserved, callback) {
@@ -326,6 +326,60 @@ class Theme {
         });
     }
 
+    initHighlight() {
+        this.util.forEach(document.querySelectorAll('.highlight > pre.chroma'), $preChroma => {
+            const $chroma = document.createElement('div');
+            $chroma.className = $preChroma.className;
+            const $table = document.createElement('table');
+            $chroma.appendChild($table);
+            const $tbody = document.createElement('tbody');
+            $table.appendChild($tbody);
+            const $tr = document.createElement('tr');
+            $tbody.appendChild($tr);
+            const $td = document.createElement('td');
+            $tr.appendChild($td);
+            $preChroma.parentElement.replaceChild($chroma, $preChroma);
+            $td.appendChild($preChroma);
+        });
+        this.util.forEach(document.querySelectorAll('.highlight > .chroma'), $chroma => {
+            const $codeElements = $chroma.querySelectorAll('pre.chroma > code');
+            if ($codeElements.length) {
+                const $code = $codeElements[$codeElements.length - 1];
+                const $header = document.createElement('div');
+                $header.className = 'code-header ' + $code.className.toLowerCase();
+                const $title = document.createElement('span');
+                $title.classList.add('code-title');
+                $title.insertAdjacentHTML('afterbegin', '<i class="arrow svg-icon icon-code-right"></i>');
+                $title.addEventListener('click', () => {
+                    $chroma.classList.toggle('open');
+                }, false);
+                $header.appendChild($title);
+                const $ellipses = document.createElement('span');
+                $ellipses.insertAdjacentHTML('afterbegin', '<i class="svg-icon icon-ellipsis"></i>');
+                $ellipses.classList.add('ellipses');
+                $ellipses.addEventListener('click', () => {
+                    $chroma.classList.add('open');
+                }, false);
+                $header.appendChild($ellipses);
+                const $copy = document.createElement('span');
+                $copy.insertAdjacentHTML('afterbegin', '<i class="svg-icon icon-copy"></i>');
+                $copy.classList.add('copy');
+                const code = $code.innerText;
+                if (this.config.code.maxShownLines < 0 || code.split('\n').length < this.config.code.maxShownLines + 2) $chroma.classList.add('open');
+                if (this.config.code.copyTitle) {
+                    $copy.setAttribute('data-clipboard-text', code);
+                    $copy.title = this.config.code.copyTitle;
+                    const clipboard = new ClipboardJS($copy);
+                    clipboard.on('success', _e => {
+                        this.util.animateCSS($code, 'flash');
+                    });
+                    $header.appendChild($copy);
+                }
+                $chroma.insertBefore($header, $chroma.firstChild);
+            }
+        });
+    }
+
     initTable() {
         this.util.forEach(document.querySelectorAll('.single table'), $table => {
             const $wrapper = document.createElement('div');
@@ -335,11 +389,20 @@ class Theme {
         });
     }
 
+    initHeaderLink() {
+        for (let num = 1; num <= 6; num++) {
+            this.util.forEach(document.querySelectorAll('h' + num), $header => {
+                $header.classList.add('headerLink');
+                $header.insertAdjacentHTML('afterbegin', `<a href="#${$header.id}" class="header-mark"></a>`);
+            });
+        }
+    }
+
     initShareHeader() {
         this.util.forEach(document.querySelectorAll('.content-break h2'), $header => {
             $header.insertAdjacentHTML('afterend', `
 <div class="header-title-share">
-<a href="${document.URL}#${$header.id}" target="_blank">link</a>
+<a href="${document.URL}#${$header.id}" target="_blank">ссылка</a>
 <a href="https://t.me/share/url?url=${document.URL}#${$header.id}" target="_blank">telegram</a>
 <a href="https://vk.com/share.php?url=${document.URL}#${$header.id}" target="_blank">vk</a>
 <a href="https://twitter.com/intent/tweet?text=${document.URL}#${$header.id}" target="_blank">twitter</a>
@@ -647,7 +710,9 @@ class Theme {
             this.initSwitchTheme();
             this.initSearch();
             this.initDetails();
+            this.initHighlight();
             this.initTable();
+            this.initHeaderLink();
             this.initShareHeader();
             this.initSmoothScroll();
             this.initMath();

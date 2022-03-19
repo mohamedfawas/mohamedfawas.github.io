@@ -1,4 +1,4 @@
-{{ $class := cond $.IsNamedParams ($.Get "class") "" }}
-<div class="split-post single {{ with $class }}{{ . }}{{ end }}">
-    {{ .Inner }}
 </div>
+<div class="split-post">
+    {{ .Inner | $.Page.RenderString }}
+</div><div class="post">

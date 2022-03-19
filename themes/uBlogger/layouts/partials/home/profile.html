@@ -1,8 +1,5 @@
 {{- $profile := .Site.Params.home.profile -}}
-{{- with $profile.h1 }}
-<h1 class="display-hidden">{{ . }}</h1>
-{{- end -}}
-<aside class="home-profile">
+<div class="home-profile">
     {{- $avatar := $profile.avatarURL -}}
     {{- with $profile.gravatarEmail -}}
         {{- $avatar = md5 . | printf "https://www.gravatar.com/avatar/%v?s=240&d=mp" -}}
@@ -27,9 +24,9 @@
     <div class="home-meta">
 
         {{- with $profile.title -}}
-            <div class="home-title">
+            <h1 class="home-title">
                 {{- . | safeHTML -}}
-            </div>
+            </h1>
         {{- end -}}
 
         {{- with $profile.subtitle -}}
@@ -92,4 +89,4 @@
             </div>
         {{- end -}}
     </div>
-</aside>
+</div>
