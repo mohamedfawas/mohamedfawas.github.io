@@ -47,7 +47,7 @@ enableEmoji = true
         name = "Projects"
         url = "/projects/"
         # title will be shown when you hover on this menu link.
-        title = ""
+        title = "Some of the selected projects I have done"
         weight = 1
       [[languages.en.menu.main]]
         identifier = "blog"
@@ -58,7 +58,7 @@ enableEmoji = true
         name = "Blog"
         url = "/blog/"
         # title will be shown when you hover on this menu link.
-        title = ""
+        title = "My blogs"
         weight = 2
       [[languages.en.menu.main]]
         identifier = "journals"
@@ -69,7 +69,7 @@ enableEmoji = true
         name = "Journals"
         url = "/journals/"
         # title will be shown when you hover on this menu link.
-        title = ""
+        title = "My daily updates"
         weight = 3
       #[[languages.en.menu.main]]
       #  identifier = "categories"
@@ -85,7 +85,7 @@ enableEmoji = true
         post = ""
         name = "About"
         url = "/about/"
-        title = ""
+        title = "Click to know if you want to know more about me"
         weight = 4
       [[languages.en.menu.main]]
         identifier = "tags"
@@ -93,7 +93,7 @@ enableEmoji = true
         post = ""
         name = "Tags"
         url = "/tags/"
-        title = ""
+        title = "Can be used for easy searching"
         weight = 5
       #[[languages.en.menu.main]]
       #  identifier = "documentation"
@@ -165,6 +165,8 @@ enableEmoji = true
         # Home page posts
         [languages.en.params.home.posts]
           enable = true
+          #From which section the posts should be shown
+          url = "/projects/"
           # special amount of posts in each home posts page
           paginate = 6
       # Social config in home page

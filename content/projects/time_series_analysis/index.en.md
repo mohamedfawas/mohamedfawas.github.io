@@ -1,6 +1,6 @@
 ---
 title: "Project Demand of Products at a Retail Outlet Based on Historical Data"
-date: 2022-03-19T10:26:14+05:30
+date: 2021-06-19T10:26:14+05:30
 
 resources:
 - name: "featured-image"
