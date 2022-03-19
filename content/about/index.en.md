@@ -43,7 +43,7 @@ math:
 I am Mohamed Fawas. I am from Malappuram, Kerala. 
 
 During my school days upto 10th I was more of an introvert and I was much into cricket and watching football. I stopped playing football after a horrible injury. Then I got selected to BHABHA school batch, this was a turning point in my life, where I met a lot of new people and explored much more extrovert character of myself. 
-![BHABHA batch tour](/images/bab.JPG "BHABHA batch tour")
+![BHABHA batch tour](/images/bab.jpg "BHABHA batch tour")
 
 Even though I liked IT field, I thought in a management field I can build a better career for me. With this in my mind, I was looking forward to join for any 3 year course like BSc, So that I can start my MBA as soon as possible. So, I joined Farook college for BSc Statistics. Initially I wanted to switch my course to physics or chemistry. But after listening to some lectures about the 'career opportunities in statistics field' by my beloved teacher Fazil sir, I made my decision I am going to stay at statistics itself. 
 
