@@ -9,7 +9,7 @@ draft: false
 
  # What I am doing now
  
-  * Currently pursuing my final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
+  * Pursuing final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
 
  * I'm looking to collaborate on **data science** and **machine learning** projects in the field of  **computer vision**.
 
