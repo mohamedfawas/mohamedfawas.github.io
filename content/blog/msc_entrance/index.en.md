@@ -4,7 +4,7 @@ date: 2022-03-19T20:45:52+05:30
 draft: false
 ---
 
-Nowadays there are many colleges providing data science courses. But to get admission to prestigious  institutes you need to clear their entrance exam with a good rank. I myself was able to successfully clear the entrance test of IIITM-k (currently known as Digital University of Kerala). So, here I will explain  all resources you can use to successfully clear the MSc data analytics/ data science entrance exams of DUK and CUSAT. Most of the colleges out there are using similar syllabus for their entrance also. So, this might be useful for other entrance exams too. 
+Nowadays there are many colleges providing data science courses. But to get admission to prestigious  institutes you need to clear their entrance exam with a good rank. I myself was able to successfully clear the entrance test of IIITM-k (currently known as Digital University of Kerala). So, here I will explain some of  the resources you can use to successfully clear the MSc data analytics/ data science entrance exams of DUK and CUSAT. Most of the colleges out there are using similar syllabus for their entrance also. So, this might be useful for other entrance exams too. 
 
 # Syllabus of DUK entrance and CUSAT entrance
 
