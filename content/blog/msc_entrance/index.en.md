@@ -4,13 +4,13 @@ date: 2022-03-19T20:45:52+05:30
 draft: false
 ---
 
-Nowadays there are many colleges providing data science courses. But to get admission to prestigious  institutes you need to clear their entrance exam with a good rank. I myself was able to successfully clear the entrance test of IIITM-k (currently known as Digital University of Entrance Exams). So, here I will explain  all resources you can use to successfully clear the MSc data analytics/ data science entrance exams of DUK and CUSAT. Most of the colleges out there are using similar syllabus for their entrance also. So, this might be useful for other entrance exams too. 
+Nowadays there are many colleges providing data science courses. But to get admission to prestigious  institutes you need to clear their entrance exam with a good rank. I myself was able to successfully clear the entrance test of IIITM-k (currently known as Digital University of Kerala). So, here I will explain  all resources you can use to successfully clear the MSc data analytics/ data science entrance exams of DUK and CUSAT. Most of the colleges out there are using similar syllabus for their entrance also. So, this might be useful for other entrance exams too. 
 
 # Syllabus of DUK entrance and CUSAT entrance
 
 In this **[link](https://duk.ac.in/wp-content/uploads/2022/03/Digital-University-Aptitude-Test-DUAT-2022-Syllabus.pdf)** you can see the entrance syllabus for this year(2022-23).
 
-As you can see the entrance exams for MSc Data Analytics and MSc Computer Science are different. Also, you can see that DUK provides an MSc Computer Science course with a specialization in Data Analytics. So as a data analytics aspirant, this will make you a little confused about which entrance you should apply to. 
+As you can see the entrance exams for MSc Data Analytics and MSc Computer Science are different. Also, you can see that DUK provides an MSc Computer Science course with a specialization in Data Analytics and . So as a data analytics aspirant, this will make you a little confused about which entrance you should apply to. 
 Anyway, I will explain my thoughts on choosing between those two entrances in another post. 
 
 In this **[link](https://admissions.cusat.ac.in/pros_2020)** on the 52nd page (*Test code: 502*) you can see the entrance syllabus for the MSc computer science course ( which is the gateway for admission to data science and artificial intelligence specializations ) in CUSAT this year(2022-23).
