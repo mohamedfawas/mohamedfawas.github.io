@@ -25,6 +25,10 @@ draft: false
 
 * **BSc Statistics** from [Farook College, Kozhikode](https://farookcollege.ac.in/), where I was advised by [Dr. Haritha N Haridas.](https://farookcollege.ac.in/Department/department-of-statistics#Tabd2) 
 
+* Completed **class 11 and 12** with 95.30% 
+
+* completed **SSLC (class 10)** with full A+ (90%+) 
+
 ##### Recent Updates
 * **February 21, 2022** joined Reflections Info Systems PVT LTD as full time AI/ML intern.
 * **December 4, 2021** Completed part time internship at Reflections Info Systems PVT LTD as AI/ML intern.
