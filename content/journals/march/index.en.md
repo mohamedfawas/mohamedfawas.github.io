@@ -6,7 +6,7 @@ date: 2022-03-19T15:04:56+05:30
 ---
 
 ### March 22
-* started the 100 day challenge, let us see how this ends up
+* started the 39 day coding challenge, let us see how this ends up! :)
 * feels like I am adapting gradually well to the new routine 
 * looking forward to follow the 'five person around me' rule
 
@@ -17,7 +17,7 @@ date: 2022-03-19T15:04:56+05:30
 ### March 20
 * low productive day
 * did **nothing** 
-**Days like this should never happen again**
+* **Days like this should never happen again**!!!!
 
 ### March 19
 * Changed the structure of journal writing in my website.
