@@ -5,8 +5,9 @@ date: 2022-03-19T15:04:56+05:30
 # Don't add much folders, otherwise it will affect contents shown in the homepage.
 ---
 
+### March 23
+* Had good discussion with current farookians on an alumni meet session.
 ### March 22
-* started the 39 day coding challenge, let us see how this ends up! :)
 * feels like I am adapting gradually well to the new routine 
 * looking forward to follow the 'five person around me' rule
 
