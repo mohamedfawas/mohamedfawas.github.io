@@ -10,7 +10,7 @@ Nowadays there are many colleges providing data science courses. But to get admi
 
 In this **[link](https://duk.ac.in/wp-content/uploads/2022/03/Digital-University-Aptitude-Test-DUAT-2022-Syllabus.pdf)** you can see the entrance syllabus for this year(2022-23).
 
-As you can see the entrance exams for MSc Data Analytics and MSc Computer Science are different. Also, you can see that DUK provides an MSc Computer Science course with a specialization in Data Analytics and . So as a data analytics aspirant, this will make you a little confused about which entrance you should apply to. 
+As you can see the entrance exams for MSc Data Analytics and MSc Computer Science are different. Also, you can see that DUK provides an MSc Computer Science course with a specialization in Data Analytics . So as a data analytics aspirant, this will make you a little confused about which entrance you should apply to. 
 Anyway, I will explain my thoughts on choosing between those two entrances in another post. 
 
 In this **[link](https://admissions.cusat.ac.in/pros_2020)** on the 52nd page (*Test code: 502*) you can see the entrance syllabus for the MSc computer science course ( which is the gateway for admission to data science and artificial intelligence specializations ) in CUSAT this year(2022-23).
