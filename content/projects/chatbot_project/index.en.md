@@ -3,9 +3,14 @@ title: "Creating a Bank assistant chatbot using RASA framework"
 date: 2021-12-19T10:24:58+05:30
 lastmode: 
 
+image: "projects/chatbot_project/featured-image.jpg"
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "projects/chatbot_project/featured-image.jpg"
+
+links:
+  - icon: fab fa-github
+    url: https://github.com/mohamedfawas/Bank-assistant-chatbot
 
 page:
     theme: full
