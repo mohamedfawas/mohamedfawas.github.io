@@ -198,7 +198,7 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Master of Science  Computer Science"
+      - title: "Master of Science in Computer Science (specialization : Data Analytics)"
         school:
           name: "Indian Institute Of Information Technology and Management - Kerala"
           url: "https://example.org"
