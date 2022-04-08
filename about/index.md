@@ -4,7 +4,7 @@
 
  # What I am doing now
  
-  * Pursuing final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
+  * Currently pursuing my final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
 
  * I'm looking to collaborate on **data science** and **machine learning** projects in the field of  **computer vision**.
 
@@ -19,10 +19,6 @@
 * **MSc Computer Science** with specialization in **Data Analytics** from [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/) (currently known as [Digital University of Kerala](https://duk.ac.in/)), where I was advised by [Dr. T. K. Manoj Kumar.](https://www.iiitmk.ac.in/faculty/dr-t-k-manoj-kumar/) 
 
 * **BSc Statistics** from [Farook College, Kozhikode](https://farookcollege.ac.in/), where I was advised by [Dr. Haritha N Haridas.](https://farookcollege.ac.in/Department/department-of-statistics#Tabd2) 
-
-* Completed **class 11 and 12** with 95.30% 
-
-* completed **SSLC (class 10)** with full A+ (90%+) 
 
 ##### Recent Updates
 * **February 21, 2022** joined Reflections Info Systems PVT LTD as full time AI/ML intern.
