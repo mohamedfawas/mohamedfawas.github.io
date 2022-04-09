@@ -113,7 +113,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "fozlava1.jpg"
+    image: "trip.jpg"
     content: |-
       I am a final year data science student at IIITM-k. I am currently working as a Full time AI/ML intern at [Reflections Info Systems PVT LTD](https://reflectionsglobal.com/). 
 
