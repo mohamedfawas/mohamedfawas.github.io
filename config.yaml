@@ -92,8 +92,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Mohamed Fawas."
-    subtitle: "I work in computer vision projects"
-    content: "A passionate data science student. I would like to work on computer vision projects."
+    subtitle: "I work in data science and machine learning projects"
+    content: "A passionate data science student from India"
     image: /fazdp.jpg
     button:
       enable: true
