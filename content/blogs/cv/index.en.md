@@ -1,6 +1,7 @@
 ---
 title: "Learning computer vision"
 date: 2022-03-26T16:22:43+05:30
+draft: True
 ---
 
 Currently I am a beginner in computer vision field. So here I will update some of the resources  I would be using in this journey. 
