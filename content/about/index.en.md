@@ -9,9 +9,9 @@ draft: false
 
  # What I am doing now
  
-  * Pursuing final semester of **MSc Computer Science** with specialization in **Data Analytics** at [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
+  * I have completed my post graduation in **Computer Science** with specialization in **Data Analytics** from [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
 
- * I'm looking to collaborate on **data science** and **machine learning** projects in the field of  **computer vision**.
+ * I'm looking to collaborate on **data engineering** project.
 
 # My Background
 

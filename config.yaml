@@ -147,8 +147,8 @@ params:
             - Azure Container
             - Python
             - SQL
-        
 
+            
       - job: "Part time AI/ML intern"
         company: "Reflections Info Systems PVT LTD"
         companyUrl: "https://reflectionsglobal.com/"
