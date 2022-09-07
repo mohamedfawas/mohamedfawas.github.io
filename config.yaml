@@ -92,8 +92,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Mohamed Fawas."
-    subtitle: "I work in data science and machine learning projects"
-    content: "A passionate data science student from India"
+    subtitle: "I work in data engineering projects"
+    content: "A Computer science post graduate in data engineering field with 10 months of internship experience"
     image: /fazdp.jpg
     button:
       enable: true
@@ -115,9 +115,9 @@ params:
     title: "About Me"
     image: "trip.jpg"
     content: |-
-      I am a final year data science student at IIITM-k. I am currently working as a data science intern at [Number Theory AI](https://www.numbertheory.ai/). 
+      I am a computer science post graduate with 10 months of internship experience in the field of data science and data engineering.   
 
-      I am currently working on building my skills in data science field.
+      I am currently working on building my skills in data engineering field and I am looking forward to involve in open source projects in the similar field.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -125,24 +125,29 @@ params:
         - "Python"
         - "SQL"
         - "Azure cloud"
-        # - "Open CV"
-        # - "React"
-        # - "Node"
-        # - "Express"
+
 
   # Experience
   experience:
     enable: true
     items:
-      - job: "Data science intern"
+      - job: "Software Design Engineer intern"
         company: "Number Theory AI"
         companyUrl: "https://www.numbertheory.ai/"
-        date: "June 2022 - present"
+        date: "June 2022 - Aug 2022"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently on Number Theory's AI platform"
+        content: |
+            Worked on optimizing Number Theory's AI platform
+
+            - Pyspark
+            - MongoDB
+            - Azure Container
+            - Python
+            - SQL
+        
 
       - job: "Part time AI/ML intern"
         company: "Reflections Info Systems PVT LTD"
@@ -153,7 +158,7 @@ params:
           url: "https://github.com/mohamedfawas/Bank-assistant-chatbot"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: .
         content: |
           Worked with the chatbot development team and created a chatbot, using RASA framework, that can be used as bank assistant.
 
@@ -175,25 +180,6 @@ params:
           - Time Series Analysis
           - fbprophet.
 
-      # - job: "UI/UX Designer"
-      #   company: "Netflix"
-      #   companyUrl: "https://example.com"
-      #   date: "June 2017 - Nov 2019"
-      #   featuredLink:
-      #     enable: true
-      #     url: "https://example.com"
-      #   content: |
-      #     I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-      #     - Lead backend developer for a product.
-      #     - Created a frontend design for a product.
-
-      # - job: "Product Designer"
-      #   company: "Google"
-      #   companyUrl: "https://example.com"
-      #   date: "Feb 2016 - Mar 2017"
-      #   content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
   # Education
   education:
     enable: true
@@ -204,11 +190,15 @@ params:
           name: "Indian Institute Of Information Technology and Management - Kerala"
           url: "https://example.org"
         date: "2020 - 2022"
-        GPA: "7.7 out of 10.0"
-        # content: |-
-        #   Extracurricular Activities
-        #     - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        GPA: "8.0 out of 10.0"
+        content: |-
+          Course Work:
+          - Data Structures and Algorithm
+          - Database Management System (DBMS)
+          - Big data technologies
+          - Problem-Solving with Python
+          - Predictive Analytics
+        
       - title: "Bachelor of Science in Statistics"
         school:
           name: "FAROOK COLLEGE - Kozhikode"
