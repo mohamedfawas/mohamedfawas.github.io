@@ -106,6 +106,8 @@ params:
         - icon: fab fa-twitter
           url: https://twitter.com/MOHAMEDFAWAS182
       customIcons:
+        - icon: /hashnode.png
+          url: "https://mohamedfawas.hashnode.dev/"
         - icon: /medium.png
           url: "https://mohamedfawas.medium.com/"
 
