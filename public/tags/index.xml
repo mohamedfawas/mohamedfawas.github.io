@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mohamed Fawas T</title>
+    <link>https://mohamedfawas.github.io/tags/</link>
+    <description>Recent content in Tags on Mohamed Fawas T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Dec 2021 10:24:58 +0530</lastBuildDate><atom:link href="https://mohamedfawas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chatbot development</title>
+      <link>https://mohamedfawas.github.io/tags/chatbot-development/</link>
+      <pubDate>Sun, 19 Dec 2021 10:24:58 +0530</pubDate>
+      
+      <guid>https://mohamedfawas.github.io/tags/chatbot-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://mohamedfawas.github.io/tags/nlp/</link>
+      <pubDate>Sun, 19 Dec 2021 10:24:58 +0530</pubDate>
+      
+      <guid>https://mohamedfawas.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://mohamedfawas.github.io/tags/project/</link>
+      <pubDate>Sun, 19 Dec 2021 10:24:58 +0530</pubDate>
+      
+      <guid>https://mohamedfawas.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://mohamedfawas.github.io/tags/python/</link>
+      <pubDate>Sun, 19 Dec 2021 10:24:58 +0530</pubDate>
+      
+      <guid>https://mohamedfawas.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RASA</title>
+      <link>https://mohamedfawas.github.io/tags/rasa/</link>
+      <pubDate>Sun, 19 Dec 2021 10:24:58 +0530</pubDate>
+      
+      <guid>https://mohamedfawas.github.io/tags/rasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time series analysis</title>
+      <link>https://mohamedfawas.github.io/tags/time-series-analysis/</link>
+      <pubDate>Sat, 19 Jun 2021 10:26:14 +0530</pubDate>
+      
+      <guid>https://mohamedfawas.github.io/tags/time-series-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Mohamed Fawas</title>
+    <title>Projects on Mohamed Fawas T</title>
     <link>https://mohamedfawas.github.io/projects/</link>
-    <description>Recent content in Projects on Mohamed Fawas</description>
+    <description>Recent content in Projects on Mohamed Fawas T</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 19 Dec 2021 10:24:58 +0530</lastBuildDate><atom:link href="https://mohamedfawas.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a Bank assistant chatbot using RASA framework</title>

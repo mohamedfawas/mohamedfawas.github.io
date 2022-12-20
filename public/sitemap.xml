@@ -1,16 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://mohamedfawas.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2022-03-19T12:19:00+05:30</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://mohamedfawas.github.io/de/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mohamedfawas.github.io/blogs/</loc>
+    <lastmod>2022-03-19T20:45:52+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/blogs/msc_entrance/</loc>
+    <lastmod>2022-03-19T20:45:52+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/</loc>
+    <lastmod>2022-03-19T20:45:52+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/blogs/blog1/</loc>
+    <lastmod>2022-03-11T07:54:40+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/tags/chatbot-development/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/projects/chatbot_project/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/tags/nlp/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/tags/project/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/projects/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/tags/python/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/tags/rasa/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/tags/</loc>
+    <lastmod>2021-12-19T10:24:58+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/projects/time_series_analysis/</loc>
+    <lastmod>2021-06-19T10:26:14+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/tags/time-series-analysis/</loc>
+    <lastmod>2021-06-19T10:26:14+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/projects/nlp_acad_proj/</loc>
+    <lastmod>2021-06-19T10:25:26+05:30</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/about/</loc>
+    <lastmod>2019-08-02T11:04:49+08:00</lastmod>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/categories/</loc>
+  </url><url>
+    <loc>https://mohamedfawas.github.io/categories/documentation/</loc>
+  </url>
+</urlset>
