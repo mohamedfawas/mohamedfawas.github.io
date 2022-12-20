@@ -105,11 +105,15 @@ params:
           url: https://github.com/mohamedfawas
         - icon: fab fa-twitter
           url: https://twitter.com/MOHAMEDFAWAS182
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/mohamed-fawas/
       customIcons:
         - icon: /hashnode.png
           url: "https://mohamedfawas.hashnode.dev/"
         - icon: /medium.png
           url: "https://mohamedfawas.medium.com/"
+        - icon: /dev.png
+          url: "https://dev.to/mohamedfawas"
 
   # About
   about:
