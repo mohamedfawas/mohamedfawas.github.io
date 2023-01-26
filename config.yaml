@@ -92,7 +92,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Mohamed Fawas."
-    subtitle: "A software engineer loving to work on open source projects"
+    subtitle: "I am exploring the world of software engineering"
     content: "A Computer science post graduate with 10 months of internship experience"
     image: /fazdp.jpg
     button:
