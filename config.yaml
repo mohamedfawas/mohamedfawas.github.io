@@ -107,6 +107,7 @@ params:
           url: https://twitter.com/MOHAMEDFAWAS182
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/mohamed-fawas/
+        
       customIcons:
         - icon: /hashnode.png
           url: "https://mohamedfawas.hashnode.dev/"
@@ -114,6 +115,8 @@ params:
           url: "https://mohamedfawas.medium.com/"
         - icon: /dev.png
           url: "https://dev.to/mohamedfawas"
+        - icon: /yt_logo.jpg
+          url: https://www.youtube.com/@mohamedfawas6737
 
   # About
   about:
