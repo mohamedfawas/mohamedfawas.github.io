@@ -1,7 +1,7 @@
 ---
 title: "About Mohamed Fawas"
 date: 2019-08-02T11:04:49+08:00
-draft: false
+draft: true
 
 
 ---
@@ -11,7 +11,6 @@ draft: false
  
   * I have completed my post graduation in **Computer Science** with specialization in **Data Analytics** from [Indian Institute of Information Technology and Management - Kerala](https://www.iiitmk.ac.in/), currently known as [Digital University of Kerala](https://duk.ac.in/) . 
 
- * I'm looking to collaborate on **data engineering** project.
 
 # My Background
 
