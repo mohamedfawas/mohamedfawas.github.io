@@ -92,8 +92,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Mohamed Fawas."
-    subtitle: "I am exploring the world of software engineering"
-    content: "A Computer science post graduate with 10 months of internship experience"
+    subtitle: "I work on open source projects"
+    content: "I am exploring more in the CNCF projects and I would like to be part of more open source communities"
     image: /fazdp.jpg
     button:
       enable: true
@@ -126,13 +126,13 @@ params:
     content: |-
       I am a computer science post graduate with 10 months of internship experience.   
 
-      I am currently working on building my skills in software engineering field and I am looking forward to involve in open source projects.
+      I am currently working on building my skills in open source contribution and technical writing.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Python"
-        - "JAVA"
+        - "Docker"
+        - "Kubernetes"
         - "Go"
 
 
