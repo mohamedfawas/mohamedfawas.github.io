@@ -1,4 +1,5 @@
 +++
+draft = true
 authors = ["Lone Coder"]
 title = "Example blog"
 date = "2023-07-07"

@@ -16,7 +16,7 @@ author = "Mohamed Fawas"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Mohamed Fawas's personal website"
 keywords = "blog,developer,personal"
-info = ["Developer", "Blogger"]
+info = ["Backend developer", "Blogger"]
 avatarURL = "images/fazdp.jpg"
 #gravatar = "fawastmh@example.com"
 dateFormat = "January 2, 2006"
@@ -148,13 +148,27 @@ url = "https://www.linkedin.com/in/mohamed-fawas/"
 
 [[params.social]]
 name = "Hashnode"
-icon = "fa fa-2x fa-medium"
+icon = "fa-brands fa-2x fa-hashnode"
 weight = 4
 url = "https://hashnode.com/@mohamedfawas"
 
+[[params.social]]
+name = "Youtube"
+icon = "fa-brands fa-2x fa-youtube"
+weight = 5
+url = "https://www.youtube.com/@MOHAMED_FAWAS"
+
+[[params.social]]
+name = "Leetcode"
+icon = "fa-solid fa-2x fa-code"
+weight = 6
+url = "https://leetcode.com/mohamedfawas/"
+
+
+
 # [[params.social]]
 # name = "RSS"
-# icon = "fa fa-2x fa-rss"
+# icon = "fa fa-2x fa-solid fa-code"
 # weight = 6
 # url = "https://myhugosite.com/index.xml"
 # rel = "alternate"

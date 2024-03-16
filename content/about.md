@@ -6,7 +6,13 @@ aliases = ["about-us", "mohamed-fawas", "Introduction"]
 author = "Mohamed Fawas"
 +++
 
-Hey, I am Mohamed Fawas from India
+I am Mohamed Fawas from India. I am a backend developer. This is my updated [resume]().
+
+I regularly publish blogs on my [hashnode profile]() about my journey in open source. Most of my blogs  are related to backend development, go-lang and open source projects.
+
+I tweet about my learning in public journey at my [twitter profile](). If anyone wants to discuss and collaborate on open source projects, please do message me on twitter. Also, you can contact me through gmail : [fawastmh@gmail.com]().
+
+- Last updated on March 16, 2024 
 
 <!--
 Kept the demo version under this, refer this in future if you need. mfawas- done - sep 11 , 2023
