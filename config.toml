@@ -148,19 +148,19 @@ url = "https://www.linkedin.com/in/mohamed-fawas/"
 
 [[params.social]]
 name = "Hashnode"
-icon = "fa-brands fa-hashnode"
+icon = "fa fa-brands fa-2x fa-hashnode"
 weight = 4
 url = "https://hashnode.com/@mohamedfawas"
 
 [[params.social]]
 name = "Youtube"
-icon = "fa-brands fa-2x fa-youtube"
+icon = "fa fa-brands fa-2x fa-youtube"
 weight = 5
 url = "https://www.youtube.com/@MOHAMED_FAWAS"
 
 [[params.social]]
 name = "Leetcode"
-icon = "fa-solid fa-2x fa-code"
+icon = "fa fa-solid fa-2x fa-code"
 weight = 6
 url = "https://leetcode.com/mohamedfawas/"
 
