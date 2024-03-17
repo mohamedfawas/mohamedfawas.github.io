@@ -164,6 +164,12 @@ icon = "fa fa-solid fa-2x fa-code"
 weight = 6
 url = "https://leetcode.com/mohamedfawas/"
 
+[[params.social]]
+name = "Hackerrank"
+icon = "fa fa-brands fa-2x fa-hackerrank"
+weight = 7
+url = "https://www.hackerrank.com/profile/mohamedfawas_dev"
+
 
 
 # [[params.social]]
