@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mohamed Fawas</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Mohamed Fawas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>I’m Mohamed Fawas, a dedicated backend developer with a focus on building scalable and efficient systems using Go (Golang). With strong expertise in Microservices Architecture, gRPC, RESTful APIs, and Kubernetes, I have the technical skills necessary to create robust backend solutions. This is my updated resume.&#xA;I am experienced in working with databases such as PostgreSQL and MongoDB, as well as leveraging modern tools like Docker and CI/CD pipelines to streamline deployment and development processes.</description>
+    </item>
+    <item>
+      <title>High level system design basics with an example story</title>
+      <link>http://localhost:1313/posts/hlsd_basics/</link>
+      <pubDate>Fri, 15 Mar 2024 14:05:50 +0530</pubDate>
+      <guid>http://localhost:1313/posts/hlsd_basics/</guid>
+      <description>This blog is published my hashnode profile. click this link to access the blog.</description>
+    </item>
+    <item>
+      <title>Example blog</title>
+      <link>http://localhost:1313/posts/emoji-support/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/emoji-support/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basics of cURL</title>
+      <link>http://localhost:1313/posts/basics_of_curl/</link>
+      <pubDate>Tue, 21 Mar 2023 13:56:14 +0530</pubDate>
+      <guid>http://localhost:1313/posts/basics_of_curl/</guid>
+      <description>This blog is available at this link.</description>
+    </item>
+    <item>
+      <title>Getting started with API gateways</title>
+      <link>http://localhost:1313/posts/get_started_api_gateways/</link>
+      <pubDate>Thu, 02 Mar 2023 13:51:04 +0530</pubDate>
+      <guid>http://localhost:1313/posts/get_started_api_gateways/</guid>
+      <description>This blog is available at this link.</description>
+    </item>
+    <item>
+      <title>Mohamed Fawas</title>
+      <link>http://localhost:1313/autores/autores-de-hugo/</link>
+      <pubDate>Thu, 05 Jan 2023 01:15:52 +0100</pubDate>
+      <guid>http://localhost:1313/autores/autores-de-hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>temas</title>
+      <link>http://localhost:1313/categoria/temas/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
+      <guid>http://localhost:1313/categoria/temas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sintaxe</title>
+      <link>http://localhost:1313/categoria/sintaxe/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
+      <guid>http://localhost:1313/categoria/sintaxe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Códigos curtos</title>
+      <link>http://localhost:1313/tags/shortcodes/_index.pt-br/</link>
+      <pubDate>Wed, 04 Jan 2023 11:51:36 +0100</pubDate>
+      <guid>http://localhost:1313/tags/shortcodes/_index.pt-br/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about.pt-br/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about.pt-br/</guid>
+      <description>Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sobre a licença Apache Licence 2.0. O Hugo suporta TOML, YAML e JSON como arquivos de dados, Markdown e HTML como arquivos de conteúdo, e usa shortcodes para adicionar conteúdos ricos. Outras funcionalidades notaveis são taxonomias, modo multilingual, processamento de imagens, formatos de saída customizaveis, minificação de HTML/CSS/JS e suporte a fluxos SASS/SCSS.&#xA;O Hugo faz o uso de vários projetos de código aberto incluíndo:</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description> Gmail : mohamed fawas Linkedin : mohamed fawas Twitter : mohamed fawas Youtube : mohamed fawas Hashnode : mohamed fawas </description>
+    </item>
+    <item>
+      <title>Contato</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Me siga em @joaoninguem.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>I will update this soon. stay tuned</description>
+    </item>
+    <item>
+      <title>Projetos</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Nada para ver aqui.. Circulando!</description>
+    </item>
+  </channel>
+</rss>
