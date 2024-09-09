@@ -148,7 +148,7 @@ url = "https://www.linkedin.com/in/mohamed-fawas/"
 
 [[params.social]]
 name = "Dev Community"
-icon = "fa fa-2x fa-dev"
+icon = "fab fa-2x fa-dev"
 weight = 4
 url = "https://dev.to/mohamedfawas1"
 
