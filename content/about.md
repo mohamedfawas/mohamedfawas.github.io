@@ -14,7 +14,7 @@ With 1 year of hands-on experience in Golang, I am currently expanding my knowle
 
 I frequently publish blogs on my [Hashnode](https://hashnode.com/@mohamedfawas) and [Dev.to](https://dev.to/mohamedfawas1) profiles, sharing insights from my journey in open-source development. My content primarily focuses on backend development, Go (Golang), and contributions to various open-source projects.
 
-I also document my learning and growth in public via Twitter, where I actively engage with the developer community. If you're interested in discussing or collaborating on open-source projects, feel free to reach out to me on [Twitter](https://twitter.com/MOHAMEDFAWAS182) or connect with me via [email](fawastmh@gmail.com).
+I also document my learning and growth in public via Twitter, where I actively engage with the developer community. If you're interested in discussing or collaborating on open-source projects, feel free to reach out to me on [Twitter](https://twitter.com/MOHAMEDFAWAS182) or connect with me via [email](mailto:fawastmh@gmail.com).
 
 - Last updated on September 9, 2024 
 
