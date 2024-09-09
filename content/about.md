@@ -1,18 +1,22 @@
 +++
 title = "About"
 description = "About Mohamed Fawas"
-date = "2019-02-28"
-aliases = ["about-us", "mohamed-fawas", "Introduction"]
+date = "2024-09-09"
+aliases = ["about-me", "mohamed-fawas", "Introduction"]
 author = "Mohamed Fawas"
 +++
 
-I am Mohamed Fawas from India.testing. I am a backend developer. This is my updated [resume]().
+I’m Mohamed Fawas, a dedicated backend developer with a focus on building scalable and efficient systems using Go (Golang). With strong expertise in Microservices Architecture, gRPC, RESTful APIs, and Kubernetes, I have the technical skills necessary to create robust backend solutions. This is my updated [resume]().
 
-I regularly publish blogs on my [hashnode profile]() about my journey in open source. Most of my blogs  are related to backend development, go-lang and open source projects.
+I am experienced in working with databases such as PostgreSQL and MongoDB, as well as leveraging modern tools like Docker and CI/CD pipelines to streamline deployment and development processes. My proficiency extends to concurrent programming, error handling, and comprehensive testing methodologies, ensuring reliability and performance across projects.
 
-I tweet about my learning in public journey at my [twitter profile](). If anyone wants to discuss and collaborate on open source projects, please do message me on twitter. Also, you can contact me through gmail : [fawastmh@gmail.com]().
+With 1 year of hands-on experience in Golang, I am currently expanding my knowledge by exploring projects related to the Cloud Native Computing Foundation (CNCF) ecosystem.
 
-- Last updated on March 16, 2024 
+I frequently publish blogs on my [Hashnode](https://hashnode.com/@mohamedfawas) and [Dev.to](https://dev.to/mohamedfawas1) profiles, sharing insights from my journey in open-source development. My content primarily focuses on backend development, Go (Golang), and contributions to various open-source projects.
+
+I also document my learning and growth in public via Twitter, where I actively engage with the developer community. If you're interested in discussing or collaborating on open-source projects, feel free to reach out to me on [Twitter](https://twitter.com/MOHAMEDFAWAS182) or connect with me via [email](fawastmh@gmail.com).
+
+- Last updated on September 9, 2024 
 
 <!--
 Kept the demo version under this, refer this in future if you need. mfawas- done - sep 11 , 2023
