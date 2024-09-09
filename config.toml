@@ -16,7 +16,7 @@ author = "Mohamed Fawas"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Mohamed Fawas's personal website"
 keywords = "blog,developer,personal"
-info = ["Golang developer", "Blogger"]
+info = ["Golang developer", "Blogger", "Cloud Native Enthusiast"]
 avatarURL = "images/fazdp.jpg"
 #gravatar = "fawastmh@example.com"
 dateFormat = "January 2, 2006"
