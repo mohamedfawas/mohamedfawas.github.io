@@ -8,3 +8,4 @@ slug = "contact"
 - Twitter : [mohamed fawas](https://twitter.com/mohamedfawas182/)
 - Youtube : [mohamed fawas](https://www.youtube.com/@MOHAMED_FAWAS)
 - Hashnode : [mohamed fawas](https://hashnode.com/@mohamedfawas)
+- Dev : [mohamed fawas](https://dev.to/mohamedfawas1)
