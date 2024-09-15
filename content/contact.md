@@ -3,7 +3,7 @@ title = "Contact"
 slug = "contact"
 +++
 
-- Gmail : [mohamed fawas](fawastmh@gmail.com)
+- Gmail : [mohamed fawas](mailto:fawastmh@gmail.com)
 - Linkedin : [mohamed fawas](https://www.linkedin.com/in/mohamed-fawas/)
 - Twitter : [mohamed fawas](https://twitter.com/mohamedfawas182/)
 - Youtube : [mohamed fawas](https://www.youtube.com/@MOHAMED_FAWAS)
