@@ -7,6 +7,7 @@ slug = "projects"
 
 ### Description
 - Developed a robust e-commerce platform using Go, implementing clean architecture principles for maintainability and scalability.
+- Created a demo video demonstrating the working of the web application and uploaded it on [youtube](https://www.youtube.com/watch?v=zukL3TUpQo8&list=PLF0PPGh9xmeOUAJ8YzIw0e-DQUslqjETL)
 - Designed and implemented a comprehensive RESTful API covering user management, product catalog, shopping cart, checkout process, order management, and return/refund workflows.
 - Utilized PostgreSQL for data persistence, with a well-structured database schema supporting complex e-commerce operations.
 - Implemented secure user authentication and authorization using JWT (JSON Web Tokens).
@@ -15,8 +16,11 @@ slug = "projects"
 - Implemented inventory management system with real-time stock updates.
 - Created an admin panel for managing products, categories, orders, and handling return requests.
 - Employed best practices for error handling, input validation, and security measures throughout the application.
+- Hosted the project in aws using AWS EC2 instance 
+- Used nginx as a reverse proxy
 ### Link to the project
-- [rmshop-ecommerce-project](https://github.com/mohamedfawas/rmshop-clean-architecture)
+- [rmshop-application-website](https://rmsports.shop/),  To test this you should use postman api testing tool.
+- [rmshop-ecommerce-project-github-repo](https://github.com/mohamedfawas/rmshop-clean-architecture)
 
 
 ## Mini projects
