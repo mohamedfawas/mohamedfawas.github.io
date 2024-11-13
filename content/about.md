@@ -10,7 +10,7 @@ I’m Mohamed Fawas, a dedicated backend developer with a focus on building scal
 
 I am experienced in working with databases such as PostgreSQL and MongoDB, as well as leveraging modern tools like Docker and CI/CD pipelines to streamline deployment and development processes. My proficiency extends to concurrent programming, error handling, and comprehensive testing methodologies, ensuring reliability and performance across projects.
 
-With 1 year of hands-on experience in Golang, I am currently expanding my knowledge by exploring projects related to Web 3.0.
+With 1 year of hands-on experience in Golang, I am currently expanding my knowledge by exploring projects related to cloud computing and web3.
 
 I frequently publish blogs on my [Hashnode](https://hashnode.com/@mohamedfawas) and [Dev.to](https://dev.to/mohamedfawas1) profiles, sharing insights from my journey in open-source development. My content primarily focuses on backend development, Go (Golang), and contributions to various open-source projects.
 
